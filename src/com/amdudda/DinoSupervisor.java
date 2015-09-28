@@ -8,7 +8,7 @@ public class DinoSupervisor {
         Dinosaur velociraptor = new Dinosaur();
         Dinosaur apatosaurus = new Dinosaur();
 
-        // make t_rex roar, swipe, and stomp
+        // make t_rex roar, swipe, and stomp.
         System.out.println("trex sez:");
         t_rex.roar(true);
         t_rex.stomp();
