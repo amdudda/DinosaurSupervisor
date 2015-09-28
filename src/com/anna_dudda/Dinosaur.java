@@ -13,4 +13,8 @@ public class Dinosaur {
     public void stomp() {
         System.out.println("STOMP!");
     }
+
+    public void evolve() {
+        System.out.println("Billions of years from now, I will shrink and say cluck!");
+    }
 }

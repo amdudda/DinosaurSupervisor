@@ -12,11 +12,13 @@ public class DinoSupervisor {
         System.out.println("trex sez:");
         t_rex.roar(true);
         t_rex.stomp();
-        // make velocirapor roar, but not swipe.
+        // make velociraptor roar, but not swipe.
         System.out.println("velociraptor sez:");
         velociraptor.roar(false);
         // make apatosaurus roar, but not swipe.
         System.out.println("Apatosaurus sez:");
         apatosaurus.roar(false);
+        // evolve the apatosaurus into a chicken
+        apatosaurus.evolve();
     }
 }
