@@ -15,6 +15,7 @@ public class Dinosaur {
     }
 
     public void evolve() {
+        // chickens are supposedly dinosaurs, I guess?
         System.out.println("Billions of years from now, I will shrink and say cluck!");
     }
 }
