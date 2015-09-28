@@ -1,4 +1,4 @@
-package com.anna_dudda;
+package com.amdudda;
 
 public class DinoSupervisor {
 

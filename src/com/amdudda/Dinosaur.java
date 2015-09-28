@@ -1,4 +1,4 @@
-package com.anna_dudda;
+package com.amdudda;
 
 /**
  * Created by tk0654wm on 9/28/2015.
