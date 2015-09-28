@@ -10,6 +10,7 @@ public class DinoSupervisor {
 
         System.out.println("trex sez:");
         t_rex.roar(true);
+        t_rex.stomp();
         System.out.println("velociraptor sez:");
         velociraptor.roar(false);
         System.out.println("Apatosaurus sez:");

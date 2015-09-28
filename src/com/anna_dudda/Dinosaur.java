@@ -9,4 +9,8 @@ public class Dinosaur {
         System.out.println("RRRAWWWRRRR!!!!");
         if (swipe) System.out.println("Also, CLAWSWIPE!");
     }
+
+    public void stomp() {
+        System.out.println("STOMP!");
+    }
 }
