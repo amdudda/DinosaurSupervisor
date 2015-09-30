@@ -1,7 +1,7 @@
 package com.amdudda;
 
 /**
- * Created by tk0654wm on 9/28/2015.
+ * Created by amdudda on 9/28/2015.
  */
 public class Dinosaur {
 
