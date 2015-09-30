@@ -5,6 +5,9 @@ package com.amdudda;
  */
 public class Dinosaur {
 
+    String name;
+    String color;
+
     public void roar(boolean swipe) {
         System.out.println("RRRAWWWRRRR!!!!");
         if (swipe) System.out.println("Also, CLAWSWIPE!");
@@ -12,10 +15,11 @@ public class Dinosaur {
 
     public void stomp() {
         System.out.println("STOMP!");
-    }
+    } // end method stomp
 
     public void evolve() {
         // chickens are supposedly dinosaurs, I guess?
-        System.out.println("Billions of years from now, I will shrink and say cluck!");
-    }
-}
+        System.out.println(String.format("Billions of years from now, " +
+                "%s will shrink and say cluck!", this.name));
+    } // end method evolve
+}  // end class Dinosaur
