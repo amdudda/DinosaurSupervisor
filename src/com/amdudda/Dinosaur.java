@@ -29,6 +29,10 @@ public class Dinosaur {
         return size;
     }
 
+    public void setSize(int size) {
+        this.size = size;
+    }
+
 }  // end class Dinosaur
 
 //testing branching
