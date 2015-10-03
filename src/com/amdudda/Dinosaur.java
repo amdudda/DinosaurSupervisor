@@ -7,6 +7,7 @@ public class Dinosaur {
 
     String name;
     String color;
+    int size;
 
     public void roar(boolean swipe) {
         System.out.println("RRRAWWWRRRR!!!!");
