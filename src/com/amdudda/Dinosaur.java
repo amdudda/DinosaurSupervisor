@@ -23,6 +23,12 @@ public class Dinosaur {
         System.out.println(String.format("Billions of years from now, " +
                 "%s will shrink and say cluck!", this.name));
     } // end method evolve
+
+
+    public int getSize() {
+        return size;
+    }
+
 }  // end class Dinosaur
 
 //testing branching
