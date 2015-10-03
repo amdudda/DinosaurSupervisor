@@ -8,6 +8,7 @@ public class Dinosaur {
     String name;
     String color;
     int size;
+    String diet; // carnivore, herbivore, or omnivore
 
     public void roar(boolean swipe) {
         System.out.println("RRRAWWWRRRR!!!!");
